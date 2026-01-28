@@ -1,0 +1,100 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background: white;
+ display: flex;
+ justify-content: center;
+ font-family: monospace;
+}
+
+.c-card {
+  margin: 2rem;
+  background-color: #D6CCB4;
+  color: black;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(93, 93, 93, 0.2);
+  text-align: center;
+  overflow: hidden;   /* respeita o arredondado */
+}
+
+/* imagem no topo */
+.c-card img {
+ margin-top: 1.5rem;
+ border-radius: 1rem;
+}
+
+.c-card h2 {
+ padding: 0.5rem;
+ font-size: 1.5rem;
+}
+
+.c-card .texto-esq {
+  width: 20rem;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.c-card .texto-dir {
+  width: 20rem;
+  text-align: right;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.icone-midias {
+ font-size: 1.5rem;
+ padding: 0.5rem;
+ color: #fff;
+}
+
+.icone-midias:hover {
+ color: rgb(255, 255, 255);
+}
+.c-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+/* estado expandido */
+.c-card.ativo {
+  transform: scale(1.2);
+}
+
+.heart {
+  position: absolute;
+  bottom: 29px;
+  right: 60px;
+
+  font-size: 32px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.c-autor {
+  display: flex;
+  align-items: center;       /* alinha verticalmente */
+  justify-content: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+.c-card .autor {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+

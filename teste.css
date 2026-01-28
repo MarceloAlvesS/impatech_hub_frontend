@@ -23,8 +23,7 @@ a {
 
 body {
   color: #000;
-  /* background-color: #f3f3f3;   */
-  background-color: #CCC4AF;  
+  background-color: #f3f3f3;  
 }
 
 header {
@@ -118,8 +117,7 @@ main ul.conteudo li{
 }
 
 main ul.conteudo li .repr{
-  /* background-color: #ccc4af; */
-  background-color: #f3f3f3;
+  background-color: #ccc4af;
   margin: 0px;
   border-radius: 14px 14px 0px 0px;
   width: 100%;
