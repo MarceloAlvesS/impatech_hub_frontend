@@ -117,7 +117,6 @@ main ul.conteudo li{
 }
 
 main ul.conteudo li .repr{
-  /* background-color: #ccc4af; */
   background-color: #f3f3f3;
   margin: 0px;
   border-radius: 14px 14px 0px 0px;
@@ -126,9 +125,11 @@ main ul.conteudo li .repr{
 
 }
 
-main ul.conteudo li h3{
+main ul.conteudo li .info{
+  height: 30%;
+  width: 100%;
   margin-top: 10px;
-  text-align: left;
+  text-align: center;
   border-radius: 15px;
 }
 
