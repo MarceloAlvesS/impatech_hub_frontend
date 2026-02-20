@@ -1,0 +1,12 @@
+:root {
+  --branco: #F3F3F3;
+  --bege: #CCC4AF;
+  --verde: #beff8b;
+  --amarelo: #ecf47a;
+  --Laranja: #ffc555;
+  --rosa: #ff8aef;
+  --preto: #000;
+
+  --cor-primaria: var(--branco);
+  --cor-secundaria: var(--bege);
+}

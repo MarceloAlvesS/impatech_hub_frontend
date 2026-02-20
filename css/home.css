@@ -1,33 +1,35 @@
+/* CONFIRAÇÔES DEFAULT */
+
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--preto);
 }
 
 .fisica {
-  background-color: #beff8b;
+  background-color: var(--verde);
 }
 
 .dados {
-  background-color: #ecf47a;
+  background-color: var(--amarelo);
 }
 
 .computacao {
-  background-color: #ffc555;
+  background-color: var(--Laranja);
 }
 
 .matematica {
-  background-color: #ff8aef;
+  background-color: var(--rosa);
 }
 
 body {
-  color: #000;
-  background-color: #CCC4AF;  
+  color: var(--preto);
+  background-color: var(--cor-primaria);  
 }
 
 header {
-  background-color: #000;
+  background-color: var(--preto);
   padding: 10px;
   display: flex;
   align-items: center;
@@ -39,7 +41,7 @@ header h1 a{
     margin: 0px;
     margin-left: 10px;
     text-align: center;
-    color: #f3f3f3;
+    color: var(--branco);
   }
 
 header a img {
@@ -53,7 +55,7 @@ header div {
 }
 
 header div a {
-  background-color: #f3f3f3;
+  background-color: var(--branco);
   margin: 0px 2px;
   padding: 10px;
 }
@@ -117,7 +119,7 @@ main ul.conteudo li{
 }
 
 main ul.conteudo li .repr{
-  background-color: #f3f3f3;
+  background-color: var(--cor-secundaria);
   margin: 0px;
   border-radius: 14px 14px 0px 0px;
   width: 100%;
