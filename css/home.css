@@ -7,26 +7,32 @@ a {
   color: var(--preto);
 }
 
+/* CLASSES PARA ENFASES */
+
 .fisica {
-  background-color: var(--verde);
+  --cor: var(--verde);
 }
 
 .dados {
-  background-color: var(--amarelo);
+  --cor: var(--amarelo);
 }
 
 .computacao {
-  background-color: var(--Laranja);
+  --cor: var(--laranja);
 }
 
 .matematica {
-  background-color: var(--rosa);
+  --cor: var(--rosa);
 }
+
+/* DEFINIÇÕES BASES */
 
 body {
   color: var(--preto);
   background-color: var(--cor-primaria);  
 }
+
+/* CABEÇALHO */
 
 header {
   background-color: var(--preto);
@@ -60,6 +66,8 @@ header div a {
   padding: 10px;
 }
 
+/* MAIN */
+
 main div {
   margin-top: 20px;
 }
@@ -89,6 +97,7 @@ main #enfases {
 }
 
 main #enfases a{
+  background-color: var(--cor);
   padding: 10px;
   border-radius: 30px;
   border: solid 2px #000;
@@ -112,6 +121,7 @@ main ul.conteudo li{
   width: 250px;
   height: 250px;
   list-style-type: none;
+  background-color: var(--cor);
 
   display: flex;
   flex-direction: column;
